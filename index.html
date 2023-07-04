@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./enccriptador.css">
+    <title>Encriptar</title>
+</head>
+
+<body>
+  
+  <h2>Encriptar de texto</h2>
+    <div class="contenedor">
+          <img src="./letra_A.png" alt="" class="letra">
+        <h1  id="cambiotexto">! BIENVENIDO <br>  HA ENCRIPTACION ALURA ONE</h1>
+   
+        <div class="contenedor__encritacion">
+            <section>
+                <textarea name="" id="texto__encriptar" cols="59" rows="20" placeholder="Ingresa el texto aqui"></textarea>
+                <p>Solo letras mayusculas y sin accento</p>
+                <div class="botones">
+                <button id="guardar__encriptar" onclick="encriptar()">Encriptar</button>
+                <button id="mostrar__desencriptar">Desencriptar</button>
+            </div>
+            </section>
+            <aside>
+                <div id="texto__cifrado"></div>
+                <img src="./imagenONE.png" alt="" class="imagen" id="imagen">
+                <br> 
+                <button id="copiar__datos">Copiar</button>
+            </aside>
+         <p></p>
+         <span id="ver"></span>
+        </div>
+    </div>
+    <script src="enccriptador.js"></script>
+</body>
+
+</html>
