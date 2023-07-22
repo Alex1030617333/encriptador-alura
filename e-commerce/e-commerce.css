@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.titulo{
+    font-family:'arial', cursive;
+    font-size: 40px;
+    padding: 20px;
+    background-image: linear-gradient(to left,green, rgb(168, 223, 3),yellow,red);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+/* htm{l{
+    background-image: url("./fondo.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} */
+.contenedor__carro a{
+    font-size: 30px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.contenedor__carro{
+    background: rgb(244, 243, 243);
+   
+}
+a{
+    color:white;
+    font-weight: 800;
+}
+.estrellas{
+    margin-left: 60px;
+}
+.container__ecomer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap; 
+    }
+  
+    .contenedor__carro{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+      gap: 100px;
+    }
+.buscador{
+    width: 420px;
+    height: 5vh;
+}
+.bienvenida{
+    background-image: linear-gradient(to left,green, rgb(3, 205, 223),yellow,red);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+    .contenedor__menu{
+        display: flex;  
+
+    }
+    .contenedor__menu a{
+        list-style: none;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 20px;
+    }
+    .contenedor__menu a:hover{
+text-decoration:underline blue;
+transition: 2s;
+    }
+    .navegador{
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: black;
+      
+    }
+body{
+    background-image: url("./fondo.PNG");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    background-attachment: fixed;
+}
+.contenido p{
+    text-align: center;
+    width: 60%;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.navegador button{
+width: 120px;
+height: 4vh;
+border-radius: 20px;
+background: aqua;
+border: none;
+}
+.navegador button:focus{
+    background: transparent;
+    }
+  .container__ecomer  article{
+    box-shadow: 2px 4px 6px 8px blue;
+  }    
+article{
+
+    width: 20%;
+  margin: 20px;
+  border-radius: 10px;
+  color: white;
+}
+    h1,address,.contenido p{
+        text-align: center;
+    }
+address{
+background: yellow;
+    }
+.container__ecomer__titulo h2{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;  
+}
+.container__ecomer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fomulario,.fomulario__pedidos,.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+
+} 
+
+.contenido button{
+width: 10%;
+height: 4vh;
+border-radius: 20px;
+margin: 10px;
+
+}
+.leer{
+    background: transparent;
+    border: blue solid 2px;
+    color: white;
+   width: 90%;
+ 
+}
+.leer:hover{
+    box-shadow: 1px 4px 10px rgb(179, 0, 255),1px 4px 9px rgb(179, 0, 255),1px 4px 10px rgb(179, 0, 255);
+    background: rgb(179, 0, 255);
+    color: rgb(70, 5, 98);
+    border: none;
+}
+img{
+    width: 170px;
+    margin-left: 50px;
+    }
+ .descripcion{
+    font-size: 10px;
+    width: 80%;
+    text-align: center;
+    margin: 20px;
+ } 
+ iframe{
+    width: 80%;
+    height: 26vh;
+ }
+ .contenedor__fomulario{
+border: 2px solid blue;
+    width: 20%;
+    display: none; 
+
+}
+.contenedor__fomulario h1{
+    font-size: 24px;
+}
+.pedido,.pedidos__envio,.container__fondo{
+    display: none;
+}
+
+/* .registro__usuario{
+    display: none;
+} */
+ .mensaje__nombre{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+ }
+.pedidos{
+    background: rgb(218, 214, 214);
+    margin: 4px;
+    
+}
+
+ footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    color: white;
+    height: 40vh;
+} 
+.fomulario__pedidos input{
+    width: 210px;
+}
+.cerrar{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+.fomulario__pedidos label{
+    color: white;
+}
+.fomulario__pedidos button{
+    background: orange;
+}
+.fomulario__pedidos h1{
+  
+    color: green;
+    padding: 10px;
+}
+
+.fomulario__pedidos {
+    width: 20%;
+    height: 60vh;
+    background: black;
+    position: absolute;
+    right: 500px;
+    top:200px;
+    border-radius: 10px;
+}
+select{
+    width: 78%;
+    margin-right: 10px;
+    border: none;
+    
+}
+.navegador select {
+    background: black;
+    color: white;
+    font-size: 20px;
+} 
+.agregar,.compra{
+    margin: 10px;
+    width: 40%;
+    height: 5vh;
+    background: orange;
+    border-radius: 15px 2px ;
+    }
+.agregar:active{
+    box-shadow: 3px  4px 3px rgb(4, 200, 240);
+}
+.compra:active{
+    box-shadow: 3px  4px 3px rgb(4, 200, 240);
+}
+
+
+.enviar,.borrar{
+    width: 100px;
+    height: 4vh;
+}
+.Subcribite{
+    width: 150px;
+    height: 4vh;
+    margin-top: 70px;
+    color: red;
+ border-radius:10px ;
+}
+.Subcribite:hover{
+background: blue;
+}
+
+
+span{
+    animation: mano 3s infinite;
+   
+}
+@keyframes mano{
+   10%{opacity: .1;}
+   20%{opacity: .2;}
+   30%{opacity: .3;}
+   40%{opacity: .1;}
+   50%{opacity: .5;}
+   60%{opacity: .6;}
+   70%{opacity: .7;}
+   80%{opacity: .8;}
+   100%{opacity: .1;}
+  
+
+}
+address{
+    font-size: 20px;
+    color: blue;
+}
+.Redes__sociales{
+    display: flex;
+    margin: 40px;
+    font-size: 30px;
+   gap: 20px;
+}
+ strong{
+    color: green;
+    animation: letra 3s 1 ;   
+
+}
+
+@keyframes letra{
+    0%{font-size: 10px;}
+    10%{font-size: 12px; opacity: .4;}
+    20%{font-size: 14px;}
+   0%{font-size: 16px;color: blue;}
+    40%{font-size: 18px; color: yellow;}
+    60%{font-size: 19px; color: green;}
+}
+.descuentos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    padding: 40px;
+}
+h3{
+    font-size: 70px;
+    text-align: center;
+    animation: descu 3s infinite ;
+}
+.descuentos p{
+    font-size: 30px;
+    text-align: center;
+}
+@keyframes descu{
+
+    10%{color: rgb(5, 13, 1); opacity: .4;}
+    20%{color: brown;}
+   0%{color: blue;}
+    40%{ color: green;}
+    60%{ color: rgb(223, 6, 6);}
+}
+
+h5{
+    color: white;
+    margin-left:600px;
+    padding: 10px;
+    gap: 20px;
+}
+.container_mesaje__envio{
+    background: rgb(237, 10, 10);
+top: 160px;
+left: 230px;
+position: absolute;
+    color: white;
+ width: 60%;
+
+}
+
+.autenticacion a{
+list-style: none;
+text-decoration: none;
+margin-left: 20px;
+  }
+  
+  .autenticacion a:hover{
+    color: blue;
+    transform: scale(2s);
+    font-size: 20px;
+    text-shadow: 2px 2px  6px rgb(1, 224, 16);
+  }
+.contenido{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.contenedr__registro{
+    background: yellow;
+}

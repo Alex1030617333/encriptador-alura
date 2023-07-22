@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="e-commerce.css">
+ 
+    <script src="https://kit.fontawesome.com/5ca3312b29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+   
+    <title>e-commerce</title>
+</head>
+
+<body>
+<h1 class="titulo">African literature and black history</h1>
+
+    <div class="pedido" id="pedido">
+
+        <form action="" id="" class="fomulario__pedidos">
+            <a href="" class="cerrar" id="cerrar">❎</a>
+            <h1>Formulario de Pedidos</h1>
+            <label for="" id="conteiner__nombre">Nombre <br>
+                <input type="text" id="nombre">
+
+            </label>
+            <br>
+
+            <label for="">Direccion <br>
+                <input type="text" id="direccion">
+                <p id="mensaje__nombre"></p>
+            </label>
+            <br>
+            <select name="" id="">
+                <option value="">Selecion su pais</option>
+                <option value="">Colombia</option>
+                <option value="">Argentina</option>
+                <option value="">cuba</option>
+            </select>
+            <br>
+            <select name="" id="">
+                <option value="">Producto</option>
+                <option value="">.....</option>
+                <option value="">.......</option>
+                <option value="">.....</option>
+            </select>
+            <label for="">Cantida <br>
+                <input type="number">
+            </label><br>
+            <div class="btnbotones">
+                <button id="enviar" class="enviar">Enviar</button>
+                <button id="borrar" class="borrar">Reset</button>
+            </div>
+        </form>
+    </div>
+
+    </div>
+    <div class="contenedor__carro">
+        <div><input type="text" placeholder="Buscar" class="buscador" id="buscador"></div>
+        <div> <a href="" class="carro__compras" id="carro__compras"> 🛒</a></div>
+    </div>
+    <div class="navegador">
+        <nav class="contenedor__menu">
+            <a href="#">Inicio</a>
+            <a href="#producto">Producto</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#envios">Envios</a>
+            <a href="#descuento">Descuentos</a>
+            <a href="#descuento">Sugerncias</a>
+            <select name="" id="opcion__pago">
+                <option value="Formas de pago">Formas de pago</option>
+                <option value="PSE">PSE</option>
+                <option value="Tergeta de credito">Tergeta de credito</option>
+                <option value="Nequi">Nequi</option>
+            </select>
+
+        </nav>
+
+        <div class="autenticacion "><a href="./registro.html">Registro</a><a href="./login.html">Login</a></div>
+        <div> <span>👉</span> <button id="pedidos">Pedidos</button> </div>
+    </div>
+    </div>
+    <div class="container__ecomer__titulo">
+
+        <div class="contenido">
+            <div>
+                <h1 id="bienvenida" class="bienvenida"></h1>
+
+                <p>¡ Si puedes soñarlo, puedes hacerlo ! <br> “El precio del éxito es trabajo duro, dedicación y
+                    determinación en que,
+                    ganes o pierdas, habrás hecho todo lo que estaba en tus manos” </p>
+                <button id="leer" class="leer">Leer mas...</button>
+                <button id="ver" class="leer">Ver producto</button>
+            
+            </div>
+           
+        </div>
+        <div class="container__fondo" id="container__fondo">
+            <h1 id="Producto" class="producto"> <strong>Productos</strong></h1>
+            <div class="container__ecomer" id="container__ecomer">
+
+            </div>
+            <h5>Me gusta</h5>
+            <div class="megusta">
+                <div><i onclick="myFunction(this)" class="fa fa-thumbs-up"
+                        style="color: rgb(38, 255, 0);     font-size: 40px; margin-left:600px;"></i></div>
+                <div><i onclick="myFunction(this)" class="fa fa-thumbs-up"
+                        style="color: blue;     font-size: 40px; margin-left:600px;"></i></div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container__modal" id="container__modal">
+
+        <div class="producto__modal" id="producto__modal">
+
+        </div>
+    </div>
+    <div id="descuentos__producto" class="descuentos__producto">
+        <h1>Hoy descuentos</h1>
+        <div class="descuentos" id="descuento">
+            <article>
+                <p>Ofertas <br>aproveche nuestros descuento </p>
+                <figcaption> <br>
+                    <h3>6%</h3>
+                </figcaption>
+            </article>
+            <article>
+                <p>Ofertas <br>aproveche nuestros descuento </p>
+                <figcaption><br>
+                    <h3>10%</h3>
+                </figcaption>
+            </article>
+            <article>
+                <p>Ofertas <br>aproveche nuestros descuento </p>
+                <figcaption> <br>
+                    <h3>20%</h3>
+                </figcaption>
+            </article>
+        </div>
+    </div>
+
+
+    <div class="container_mesaje__envio" id="container_mesaje__envio">
+        <div class="modal__exitoso">
+            <!-- <h1>aaa</h1> -->
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h1 id="contacto">Contacto</h1> <br>
+            <p>Telefono:324688192</p>
+            <br>
+            <p>Direccion:Calle 12#32-43 sur</p>
+            <br>
+            <p>Email:came43@gmail.con</p>
+            <br>
+            <p>Pais:Colombia</p>
+            <br>
+            <p>Barrio:las delicias</p>
+        </div>
+        <div>
+            <h1>Ubicacion</h1> <br>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31814.480196322216!2d-74.17995185807003!3d4.627957260834178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1688345909326!5m2!1ses!2sco"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+            <h1>Redes sociales</h1>
+            <div class="Redes__sociales">
+
+                <a href="">
+                    <div><i class="fa-brands fa-twitter" style="color: rgb(6, 89, 244);" class="logos"></i></div>
+                </a>
+
+                <a href="">
+                    <div> <i class="fa-brands fa-facebook" style="color: rgb(13, 118, 245);" class="logos"></i></div>
+                </a>
+
+                <a href="">
+                    <div> <i class="fa-brands fa-linkedin" style="color: rgb(11, 95, 250);" class="logos"></i></div>
+                </a>
+            </div>
+        </div>
+        <div>
+
+            <button class="Subcribite" id="Subcribite">Subcribite</button>
+
+        </div>
+
+        <div class="contenedor__fomulario" id="fomulario">
+            <h1>Bienvenido/a</h1>
+            <br>
+            <form action="" class="fomulario">
+                <label for="">Nombre <br>
+                    <input type="text" data-nombre>
+                </label>
+                <label for="">Email <br>
+                    <input type="email"  required data-email>
+                </label>
+                <label for="">Telefono <br>
+                    <input type="number" data-telefono >
+                    <span id="mensajeTefelono"></span>
+                </label><br>
+                <button id="escripcion" type="submit">Escribete ya</button>
+            </form>
+        </div>
+    </footer>
+    <div>
+
+        <address>Autor alex montaño <br>2023 </address>
+    </div>
+
+    <script src="ecommercelist.js"></script>
+    <script src="icommerce.js"></script>
+</body>
+
+</html>
